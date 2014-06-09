@@ -1006,10 +1006,10 @@
 									}
 									else
 									{
-										// Allow skipping a word - but at EXTREAM cost
-										//$aSearch = $aCurrentSearch;
-										//$aSearch['iSearchRank']+=100;
-										//$aNewWordsetSearches[] = $aSearch;
+										// Allow skipping a word
+										$aSearch = $aCurrentSearch;
+										$aSearch['iSearchRank'] += 3;
+										$aNewWordsetSearches[] = $aSearch;
 									}
 								}
 								// Sort and cut
