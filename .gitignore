@@ -1,4 +1,6 @@
+log
 *.log
+screenlog.*
 
 nominatim/*.d
 nominatim/*.o
@@ -29,3 +31,4 @@ data/wiki_specialphrases.sql
 data/osmosischange.osc
 data/wikipedia_article.sql.bin
 data/wikipedia_redirect.sql.bin
+specialphrases*
